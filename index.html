@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Store</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="content" id="scrollPoint">
+            <div class="header-top-menu">
+                <div class="logo"><img src="./img/logo.svg" alt="Логотип"></div>
+                <nav class="nav-bar">
+                    <div class="link"><a href="#" class="link-header div_text">Main</a></div>
+                    <div class="link"><a href="#" class="link-header div_text">Gallery</a></div>
+                    <div class="link"><a href="#" class="link-header div_text">News</a></div>
+                    <div class="link"><a href="#" class="link-header div_text">Profile</a></div>
+                </nav>
+                <div class="phone-number">
+                    <h3>+544 3490 00000</h3>
+                    <h4>Звони скорее!</h4>
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-cat-result">
+                <h2>Найдено 349 котов</h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="likes-table">
+        <p>Добавлено в избранное</p>
+    </div>
+
+    <div class="main">
+        <div class="content">
+            <div class="selector-sort">
+                <div><strong>Сортировать по:</strong></div>
+                <select name="selector-prise" id="selectorPrise">
+                    <option value="1" id="sortPrice">Цене</option>
+                </select>
+                <select name="selector-edge" id="selectorEdge">
+                    <option value="1" id="sortEdge">Возрасту</option>
+                </select>
+            </div>
+            <div class="cont_all">
+                <div class="tables">
+                    <div class="table" data-edge="2" data-prise="30">
+                        <div class="image product1">
+                            <div class="sale"> -40% </div>
+                            <div class="like"></div>
+                        </div>
+                        <div class="table-content">
+                            <div class="title">Кот полосатый</div>
+                            <div class="discription">
+                                <ul class="product-discription">
+                                    <li>
+                                        <div class="blue-point"></div>
+                                    </li>
+                                    <li>
+                                        <p>Коричневый окрас</p>
+                                    </li>
+                                    <li><b>2 мес</b>
+                                        <p>Возраст</p>
+                                    </li>
+                                    <li>4 <p>Кол-во лап</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prise">30 000 руб.</div>
+                        </div>
+                        <div class="button"><button class="btn-buy">Купить</button></div>
+                    </div>
+                    <div class="table" data-edge="1" data-prise="40">
+                        <div class="image product2">
+                            <div class="like"></div>
+                        </div>
+                        <div class="table-content">
+                            <div class="title">Кот полосатый</div>
+                            <div class="discription">
+                                <ul class="product-discription">
+                                    <li>
+                                        <div class="blue-point"></div>
+                                    </li>
+                                    <li>
+                                        <p>Коричневый окрас</p>
+                                    </li>
+                                    <li><b>1 мес</b>
+                                        <p>Возраст</p>
+                                    </li>
+                                    <li>4 <p>Кол-во лап</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prise">40 000 руб.</div>
+                        </div>
+                        <div class="button"><button class="btn-buy no-active">Продан</button></div>
+                    </div>
+                    <div class="table" data-edge="2" data-prise="20" >
+                        <div class="image product3">
+                            <div class="like"></div>
+                        </div>
+                        <div class="table-content">
+                            <div class="title">Кот полосатый</div>
+                            <div class="discription">
+                                <ul class="product-discription">
+                                    <li>
+                                        <div class="blue-point"></div>
+                                    </li>
+                                    <li>
+                                        <p>Коричневый окрас</p>
+                                    </li>
+                                    <li><b>2 мес</b>
+                                        <p>Возраст</p>
+                                    </li>
+                                    <li>4 <p>Кол-во лап</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prise">20 000 руб.</div>
+                        </div>
+                        <div class="button"><button class="btn-buy">Купить</button></div>
+                    </div>
+                    <div class="table" data-edge="2" data-prise="25">
+                        <div class="image product1">
+                            <div class="like"></div>
+                        </div>
+                        <div class="table-content">
+                            <div class="title">Кот полосатый</div>
+                            <div class="discription">
+                                <ul class="product-discription">
+                                    <li>
+                                        <div class="blue-point"></div>
+                                    </li>
+                                    <li>
+                                        <p>Коричневый окрас</p>
+                                    </li>
+                                    <li><b>2 мес</b>
+                                        <p>Возраст</p>
+                                    </li>
+                                    <li>4 <p>Кол-во лап</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prise">25 000 руб.</div>
+                        </div>
+                        <div class="button"><button class="btn-buy">Купить</button></div>
+                    </div>
+                    <div class="table" data-edge="1" data-prise="30">
+                        <div class="image product3">
+                            <div class="sale"> -40% </div>
+                            <div class="like"></div>
+                        </div>
+                        <div class="table-content">
+                            <div class="title">Кот полосатый</div>
+                            <div class="discription">
+                                <ul class="product-discription">
+                                    <li>
+                                        <div class="blue-point"></div>
+                                    </li>
+                                    <li>
+                                        <p>Коричневый окрас</p>
+                                    </li>
+                                    <li><b>1 мес</b>
+                                        <p>Возраст</p>
+                                    </li>
+                                    <li>4 <p>Кол-во лап</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prise">30 000 руб.</div>
+                        </div>
+                        <div class="button"><button class="btn-buy">Купить</button></div>
+                    </div>
+                    <div class="table" data-edge="3" data-prise="10">
+                        <div class="image product2">
+                            <div class="like"></div>
+                        </div>
+                        <div class="table-content">
+                            <div class="title">Кот полосатый</div>
+                            <div class="discription">
+                                <ul class="product-discription">
+                                    <li>
+                                        <div class="blue-point"></div>
+                                    </li>
+                                    <li>
+                                        <p>Коричневый окрас</p>
+                                    </li>
+                                    <li><b>3 мес</b>
+                                        <p>Возраст</p>
+                                    </li>
+                                    <li>4 <p>Кол-во лап</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prise">10 000 руб.</div>
+                        </div>
+                        <div class="button"><button class="btn-buy no-active">Продан</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-next">
+            Показать ещё 20
+        </div>
+        <div class="scroll-up">
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-all">
+            <div class="footer-text">
+                <h1>Успей купить!</h1>
+                <p>Подпишись и успей словить все акции</p>
+            </div>
+            <div class="footer-adress">
+                <!-- <input class="email-selector"  type="email" placeholder="me@example.com" required size="40" value="Email"> -->
+                <form>
+                    <input class="email-selector" type="email" placeholder="nikitazhaba@gmail.com" required >
+                    <input class="btn-subscribe" type="submit" value="Подписаться">
+                </form>
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" class="checkbox-input" id="checkboxSub">
+                    <label class="checkbox-label" for="checkboxSub">Подписаться на новости</label>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="./js/index.js"></script>
+
+</html>
